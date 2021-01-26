@@ -1,0 +1,165 @@
+.header{
+    background-image: url("background.jpg");
+    background-size: 100% 1000px; 
+    
+}
+
+.heading{
+    text-align: center;
+    padding-top: 170px;
+    padding-bottom: 850px;
+    font-size: 90px;
+    animation: reveal 3000ms ease-in-out forwards 200ms,
+             glow 2500ms linear infinite 2000ms;
+}
+
+
+  @keyframes reveal {
+    80%{
+      letter-spacing: 8px;
+    }
+    100% {
+      background-size: 300% 300%;
+    }
+  }
+  @keyframes glow {
+    40% {
+      text-shadow: 0 0 8px #fff;
+    }
+  }
+
+
+.background{
+    height: 1000px;
+    width: 100%;
+}
+
+.collapse{
+    flex: 0 !important;
+}
+
+.nav-link{
+    font-size: 20px !important;
+    transition: 0.3s !important;
+    margin-right: 30px !important;
+    margin-left: 30px !important;
+}
+.nav-link:hover{
+    font-size: 30px !important;
+    padding: 0px 0px 0px 0px !important;
+    margin-right: 19px !important;
+    margin-left: 30px !important;
+}
+
+.navbar-brand{
+    font-size: 30px !important;
+}
+
+.container-fluid{
+    font-size: 15px;
+}
+
+.about{
+    padding-top: 100px;
+    position: absolute;
+    top: 1000px;
+    text-align: center;
+    background-color: white;
+}
+
+/* .image{
+    border-radius: 50%;
+    overflow: hidden;
+    height: 170px;
+    width: 150px;
+} */
+
+.myImage{
+    text-align: center;
+    height: 300px;
+    width: 220px;
+    margin-top: 50px;
+}
+.aboutPara{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.Contact{
+    position:absolute;
+    top:2500px;
+}
+
+.contact{
+   
+    /* background-color: black; */
+    text-align: center !important;
+}
+
+.contactMe{
+    text-align: center !important;
+    position: absolute;
+    top: 2500px;
+    color: black ;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.third{
+    text-align:center !important;
+    margin-bottom: 30px;
+    
+}
+
+.contactLink{
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.contactLink:hover{
+    font-size: 20px;
+    color: black;
+}
+
+.projects{
+    position: absolute;
+    top: 1550px;
+    /* text-align: center !important; */
+    color: white;
+    background-color: black;
+    padding-top: 50px;
+    text-align: center !important;
+    padding-top: 50px;
+}
+
+.carousel{
+    
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.w-100{
+    height: 600px;
+    width: 220px;
+}
+
+
+.footer{
+    padding-top: 50px;
+    position: absolute;
+    top:2800px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.icon{
+    color:white;
+    font-size: 25px;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+.icon:hover{
+    font-size: 20px;
+    color: white;
+}
