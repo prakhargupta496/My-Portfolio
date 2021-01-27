@@ -1,3 +1,5 @@
+/* ----Heading Start---- */
+
 .header{
     background-image: url("background.jpg");
     background-size: 100% 1000px; 
@@ -37,7 +39,9 @@
 .collapse{
     flex: 0 !important;
 }
+/* ----Heading End---- */
 
+/* ----Navbar Start---- */
 .nav-link{
     font-size: 20px !important;
     transition: 0.3s !important;
@@ -59,7 +63,9 @@
 .container-fluid{
     font-size: 15px;
 }
+/* ----Navbar End---- */
 
+/* ----About Start---- */
 .about{
     padding-top: 100px;
     position: absolute;
@@ -85,6 +91,8 @@
     margin-top: 20px;
     margin-bottom: 50px;
 }
+
+/* ----About End---- */
 
 .Contact{
     position:absolute;
