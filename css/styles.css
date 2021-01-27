@@ -6,7 +6,7 @@
 
 .heading{
     text-align: center;
-    padding-top: 170px;
+    padding-top: 230px;
     padding-bottom: 850px;
     font-size: 90px;
     animation: reveal 3000ms ease-in-out forwards 200ms,
@@ -51,8 +51,9 @@
     margin-left: 30px !important;
 }
 
-.navbar-brand{
-    font-size: 30px !important;
+.logo{
+    height: 50px;
+    width: 50px;
 }
 
 .container-fluid{
